@@ -1,0 +1,48 @@
+[ ] NAME:Current Task List DESCRIPTION:Root task for conversation __NEW_AGENT__
+-[/] NAME:Çiftçi Forum Platformu - Ana Proje DESCRIPTION:Çiftçiler ve bitki yetiştirme uzmanları için kapsamlı forum platformu geliştirme projesi. Web platformu ve mobil uygulama olmak üzere iki ana aşamadan oluşuyor.
+--[x] NAME:1. Proje Planlama ve Dokümantasyon DESCRIPTION:Teknoloji stack seçimi, proje mimarisi tasarımı, gereksinim analizi ve teknik dokümantasyon hazırlama
+---[x] NAME:Teknoloji Stack Analizi ve Seçimi DESCRIPTION:Modern teknolojilerin karşılaştırılması, proje gereksinimlerine uygun stack seçimi ve gereççelendirme
+---[x] NAME:Proje Mimarisi ve Veritabanı Tasarımı DESCRIPTION:Sistem mimarisi, veritabanı şeması, API tasarımı ve güvenlik mimarisi
+---[x] NAME:Gereksinim Analizi ve Özellik Dokümantasyonu DESCRIPTION:Detaylı özellik listesi, kullanıcı hikayeleri ve iş akışı dokümantasyonu
+---[x] NAME:Geliştirme Roadmap ve Timeline DESCRIPTION:Detaylı geliştirme planı, milestone'lar ve zaman çizelgesi
+--[/] NAME:2. Web Platformu Geliştirme DESCRIPTION:Responsive web forum platformunun frontend ve backend geliştirmesi
+---[x] NAME:Proje Kurulumu ve Altyapı DESCRIPTION:Development environment, CI/CD, database setup ve temel proje yapısının oluşturulması
+---[x] NAME:Authentication ve Kullanıcı Yönetimi DESCRIPTION:Kullanıcı kayıt/giriş sistemi, profil yönetimi ve yetkilendirme
+---[x] NAME:Forum Temel Özellikleri DESCRIPTION:Kategori, konu, yorum sistemi ve temel forum işlevleri
+---[x] NAME:Gelişmiş Özellikler ve Optimizasyon DESCRIPTION:Rozet sistemi, real-time özellikler, arama ve performans optimizasyonu
+---[x] NAME:Frontend Geliştirme - Faz 1: Temel Altyapı Kurulumu DESCRIPTION:Next.js 14 proje kurulumu, TypeScript, Tailwind CSS, shadcn/ui konfigürasyonu ve temel mimari oluşturma
+---[x] NAME:Frontend Geliştirme - Faz 2: Forum Modülü DESCRIPTION:Forum kategorileri, konular, yorumlar ve arama fonksiyonalitesi implementasyonu
+---[x] NAME:Frontend Geliştirme - Faz 3: E-ticaret Modülü DESCRIPTION:E-ticaret modülünün temel yapısı tamamlandı: TypeScript tipleri, servisler, hook'lar, temel komponentler (ProductCard, ProductGrid, CategoryCard) ve marketplace ana sayfası oluşturuldu. Backend API entegrasyonu hazır, responsive tasarım uygulandı.
+---[ ] NAME:Frontend Geliştirme - Faz 4: AI Asistan Modülü DESCRIPTION:AI sohbet arayüzü, soru-cevap sistemi ve AI önerileri implementasyonu
+---[ ] NAME:Frontend Geliştirme - Faz 5: Kullanıcı Deneyimi ve Profil DESCRIPTION:Profil yönetimi, bildirimler, rozetler ve üyelik sistemi implementasyonu
+---[ ] NAME:Frontend Geliştirme - Faz 6: Responsive Design ve Mobil Optimizasyon DESCRIPTION:Mobil uyumluluk, PWA özellikleri ve cross-platform optimizasyon
+---[ ] NAME:Frontend Geliştirme - Faz 7: Performance ve SEO Optimizasyonu DESCRIPTION:Performans iyileştirmeleri, SEO optimizasyonu ve accessibility
+---[ ] NAME:Frontend Geliştirme - Faz 8: Testing ve Deployment DESCRIPTION:Unit testler, integration testler ve production deployment
+--[ ] NAME:3. Mobil Uygulama Geliştirme DESCRIPTION:iOS ve Android için native/hybrid mobil uygulama geliştirmesi
+--[ ] NAME:4. Test ve Deployment DESCRIPTION:Kapsamlı test süreçleri, performans optimizasyonu ve production deployment
+--[x] NAME:AI Entegrasyonu - Gemini API DESCRIPTION:Google Gemini 2.0 Flash API entegrasyonu ile forum sorularına otomatik AI cevapları sağlama sistemi
+---[ ] NAME:AI Backend Implementasyonu DESCRIPTION:Gemini API entegrasyonu, AI service, routes ve database schema implementasyonu
+---[ ] NAME:AI Frontend Komponenleri DESCRIPTION:AI response component, generator, hooks ve UI entegrasyonu
+---[ ] NAME:AI Konfigürasyon ve Test DESCRIPTION:Admin paneli, kategori ayarları, test senaryoları ve deployment
+--[x] NAME:Özelleştirilmiş AI Modeli Stratejisi DESCRIPTION:Tarım ve çiftçilik alanında özelleştirilmiş AI modeli geliştirme, fine-tuning ve RAG yaklaşımları için uzun vadeli strateji
+--[x] NAME:E-Ticaret Sistemi Entegrasyonu DESCRIPTION:GreenAI Forum'a entegre marketplace sistemi - ürün satışı, ödeme, kargo ve güvenlik özellikleri
+---[ ] NAME:E-Ticaret Backend Geliştirme DESCRIPTION:Veritabanı şeması, API endpoints, servisler ve ödeme entegrasyonu
+---[ ] NAME:E-Ticaret Frontend Geliştirme DESCRIPTION:Marketplace UI, ürün sayfaları, sepet, checkout ve kullanıcı arayüzleri
+---[ ] NAME:Ödeme ve Güvenlik Sistemi DESCRIPTION:İyzico/PayTR entegrasyonu, KYC, satıcı doğrulama ve güvenlik önlemleri
+---[ ] NAME:Kargo ve Lojistik Entegrasyonu DESCRIPTION:Kargo API'leri, sipariş takip, bildirim sistemi ve lojistik yönetimi
+---[ ] NAME:Forum-Marketplace Entegrasyonu DESCRIPTION:Forum sorularından ürün önerileri, satıcı reputasyonu ve AI destekli öneriler
+---[ ] NAME:Yasal Uyumluluk ve Test DESCRIPTION:KVKK, e-ticaret kanunu uyumluluğu, kapsamlı test ve beta launch
+--[x] NAME:Üyelik Sistemi Tasarımı DESCRIPTION:Kapsamlı üyelik seviyeleri, avantaj sistemi, fiyatlandırma stratejisi ve teknik implementasyon planı
+---[ ] NAME:Üyelik Backend Geliştirme DESCRIPTION:Veritabanı şeması, membership service, API routes ve ödeme entegrasyonu
+---[ ] NAME:Üyelik Frontend Geliştirme DESCRIPTION:Pricing sayfası, checkout flow, kullanıcı dashboard ve üyelik yönetimi
+---[ ] NAME:Özellik Erişim Kontrolü DESCRIPTION:Feature access middleware, usage tracking ve limit kontrolleri
+---[ ] NAME:Ödeme Sistemi Entegrasyonu DESCRIPTION:İyzico/PayTR entegrasyonu, webhook'lar ve fatura sistemi
+---[ ] NAME:Analytics ve Raporlama DESCRIPTION:Üyelik analitikleri, kullanım raporları ve admin dashboard
+---[ ] NAME:Test ve Optimizasyon DESCRIPTION:A/B testing, performance optimizasyonu ve kullanıcı deneyimi iyileştirmeleri
+--[x] NAME:Veri Güvenliği ve Siber Güvenlik Planı DESCRIPTION:Kapsamlı güvenlik stratejisi, KVKK uyumluluğu, teknik güvenlik önlemleri ve operasyonel güvenlik planı
+---[ ] NAME:Temel Güvenlik Altyapısı DESCRIPTION:Firewall, SSL/TLS, authentication sistemi ve temel güvenlik önlemleri
+---[ ] NAME:Veri Şifreleme ve Koruma DESCRIPTION:Veritabanı şifreleme, hassas veri koruma ve KVKK uyumluluğu
+---[ ] NAME:Güvenlik Monitoring ve SIEM DESCRIPTION:Güvenlik izleme, log yönetimi ve tehdit tespiti
+---[ ] NAME:Incident Response ve Recovery DESCRIPTION:Güvenlik olayı müdahale planı, backup ve disaster recovery
+---[ ] NAME:Compliance ve Audit DESCRIPTION:KVKK, ISO 27001, PCI DSS uyumluluğu ve güvenlik audit
+---[ ] NAME:Güvenlik Eğitimi ve Dokümantasyon DESCRIPTION:Çalışan güvenlik eğitimi, politikalar ve prosedürler

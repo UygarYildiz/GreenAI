@@ -1,0 +1,61 @@
+{
+  "name": "greenai-forum",
+  "version": "1.0.0",
+  "description": "Çiftçiler ve bitki yetiştirme uzmanları için kapsamlı forum platformu",
+  "private": true,
+  "workspaces": [
+    "web",
+    "api",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:web": "cd web && npm run dev",
+    "dev:api": "cd api && npm run dev",
+    "build": "npm run build:shared && npm run build:api && npm run build:web",
+    "build:web": "cd web && npm run build",
+    "build:api": "cd api && npm run build",
+    "build:shared": "cd shared && npm run build",
+    "test": "npm run test:web && npm run test:api",
+    "test:web": "cd web && npm run test",
+    "test:api": "cd api && npm run test",
+    "lint": "npm run lint:web && npm run lint:api",
+    "lint:web": "cd web && npm run lint",
+    "lint:api": "cd api && npm run lint",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,md}\"",
+    "setup": "npm install && npm run setup:web && npm run setup:api",
+    "setup:web": "cd web && npm install",
+    "setup:api": "cd api && npm install",
+    "clean": "rm -rf node_modules web/node_modules api/node_modules shared/node_modules",
+    "db:migrate": "cd api && npm run migrate",
+    "db:seed": "cd api && npm run seed",
+    "db:reset": "cd api && npm run db:reset"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/greenai-forum.git"
+  },
+  "keywords": [
+    "forum",
+    "agriculture",
+    "farming",
+    "community",
+    "nextjs",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT"
+}

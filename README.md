@@ -151,9 +151,9 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 📞 İletişim
 
-- **Proje Sahibi**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Proje Sahibi**: [Uygar YILDIZ]
+- **Email**: uygaryildizz@gmail.com
+- **GitHub**: [@yourusername](https://github.com/UygarYildiz)
 
 ## 🗺️ Roadmap
 
